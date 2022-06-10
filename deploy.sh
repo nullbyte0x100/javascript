@@ -1,5 +1,7 @@
-#!bin/bash
 git add .
-git commit -m "commit"
+echo "Commit message"
+read message
+git commit -m "${message}"
 git push -u origin main
-echo "trevormalesike"
+read username
+read token
