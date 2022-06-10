@@ -1,7 +1,7 @@
 function digitize(n){
 	//create an array
 	var arr=[];
-	return n.split('');
+	return n.split('').replaceAll('',' ').join('');
 
 
 }
